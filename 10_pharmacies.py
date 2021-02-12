@@ -20,7 +20,7 @@ def main():
     delta = 0.001
     spn = '0.001,0.001'
     while True:
-        orgs = find_businesses('страховая компания надежда', address_ll, spn)
+        orgs = find_businesses('аптека', address_ll, spn)
         print(len(orgs))
         if len(orgs) < 10:
             delta += 0.001
